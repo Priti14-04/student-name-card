@@ -46,10 +46,22 @@ h1 {
     </style>
 </head>
 <body>
-    <h1>student cards</h1>
+    <h1>Students Card</h1>
     <div id="students-container"></div>
     <script>
+       
+        
         const students = ["Preeti","Payal","Siddhi","Namarata","Anu","Pranjal"];
+        console.log(students);
+        console.log("Adding new student");
+        students.push("Aryan");
+        students.push("om");
+        console.log(students);
+        students.pop();
+        students.pop();
+        students.pop();
+        console.log(students);
+
          const studentsContainer = document.getElementById("students-container");
          for(let i=0;i<students.length;i++){
             
